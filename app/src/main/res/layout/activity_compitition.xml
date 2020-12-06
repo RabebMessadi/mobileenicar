@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compitition"
+    android:background="@drawable/radius_gris">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Compitions"
+            android:layout_width="370dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/raduis"
+            android:enabled="false"
+
+            android:fontFamily="cursive"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="clip_horizontal|center|clip_vertical"
+            android:text="Compitions"
+            android:textColor="@color/gris"
+            android:textSize="50dp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="568dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="163dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/walker"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:clickable="true"
+                android:fontFamily="casual"
+
+                android:radius="360dp"
+                android:paddingTop="55px"
+                android:paddingBottom="55px"
+
+                android:text="Walker robot competition"
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                 android:textSize="24sp"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:fontFamily="casual"
+                android:text="SUMO robot competition"
+
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                android:textColorLink="#AE1111"
+                android:textSize="24sp"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:fontFamily="casual"
+                android:text="Wheeled Robots Compitition"
+
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                android:textColorLink="#AE1111"
+                android:textSize="24sp"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:fontFamily="casual"
+                android:text="Projet Exposition"
+                android:shadowRadius="100"
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                android:textColorLink="#AE1111"
+                android:textSize="24sp"
+                android:visibility="visible"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

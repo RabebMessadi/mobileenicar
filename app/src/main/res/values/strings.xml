@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">enicarthage events</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="evenements">Événements</string>
+    <string name="annee_2">2020</string>
+    <string name="robots_2020">Enicarthage ROBOTS 5.0</string>
+    <string name="furom_2020">Furom d\'entreprise 2020</string>
+    <string name="visit_2020">Visite d\'entreprise 2020</string>
+    <string name="annee_9">2019</string>
+    <string name="annee_8">2018</string>
+
+</resources>
