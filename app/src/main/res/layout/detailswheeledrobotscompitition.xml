@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enicarrobots"
+    android:background="@drawable/radius_gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/backdetailwheeled"
+            android:layout_width="59dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/Compition3"
+            android:layout_width="380dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/bleu"
+            android:enabled="false"
+            android:fontFamily="cursive"
+
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="clip_horizontal|center|clip_vertical"
+            android:paddingTop="20dp"
+            android:text="Details Wheeled Robots Compitition"
+            android:textColor="@color/gris"
+            android:textSize="50dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="383dp"
+                android:layout_height="97dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:gravity="clip_horizontal|center|clip_vertical"
+                android:textColor="@color/bleu"
+                android:textStyle="bold|italic"
+                tools:text='You need to create a program in Python, using the given functions, in order to make your wheeled robot navigate the track shown in the image below. The track should be 3x1m. ' />
+
+        </LinearLayout>
+
+        <Button
+
+            android:layout_width="400dp"
+            android:layout_height="370dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/img"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+
+
+
+            android:text="@string/robots_2020"
+            android:textColor="#ffff"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"></Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

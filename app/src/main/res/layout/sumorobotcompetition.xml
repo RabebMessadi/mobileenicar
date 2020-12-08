@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enicarrobots"
+    android:background="@drawable/radius_gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/backs"
+            android:layout_width="59dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/Compition3"
+            android:layout_width="372dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/jaune"
+            android:enabled="false"
+            android:fontFamily="cursive"
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="clip_horizontal|center|clip_vertical"
+            android:paddingTop="20dp"
+            android:text="SUMO robots compition"
+            android:textColor="@color/gris"
+            android:textSize="50dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/detailss"
+                android:layout_width="250dp"
+                android:layout_height="2px"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:clickable="true"
+
+                android:fontFamily="casual"
+                android:paddingTop="55px"
+                android:paddingBottom="55px"
+                android:text="Details"
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+
+                android:textSize="24sp"
+                android:visibility="visible"
+
+                />
+
+
+            <Button
+                android:id="@+id/teamss"
+                android:layout_width="250dp"
+                android:layout_height="2px"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:fontFamily="casual"
+                android:text="Teams"
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                android:textColorLink="#AE1111"
+                android:textSize="24sp"
+                android:visibility="visible"
+
+                />
+
+            <Button
+                android:id="@+id/inscriptions"
+                android:layout_width="250dp"
+                android:layout_height="2px"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_radius"
+                android:fontFamily="casual"
+                android:text="Inscription"
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                android:textColorLink="#AE1111"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

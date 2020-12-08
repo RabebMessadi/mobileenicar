@@ -14,31 +14,32 @@
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="59dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+
         <TextView
-            android:id="@+id/Compitions"
-            android:layout_width="370dp"
+            android:id="@+id/Compition3"
+            android:layout_width="372dp"
             android:layout_height="142dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="0dp"
+            android:layout_marginRight="30dp"
             android:background="@drawable/raduis"
             android:enabled="false"
-
             android:fontFamily="cursive"
             android:foregroundGravity="center|center_horizontal"
             android:gravity="clip_horizontal|center|clip_vertical"
-            android:text="Compitions"
+            android:paddingTop="20dp"
+            android:text="Compititions"
             android:textColor="@color/gris"
             android:textSize="50dp"
             android:textStyle="bold|italic" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="392dp"
-        android:layout_height="568dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="163dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,85 +47,100 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
+
             <Button
-                android:id="@+id/walker"
+                android:id="@+id/walkercomp"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_radius"
+
                 android:clickable="true"
                 android:fontFamily="casual"
-
-                android:radius="360dp"
                 android:paddingTop="55px"
-                android:paddingBottom="55px"
 
+                android:paddingBottom="55px"
+                android:radius="360dp"
                 android:text="Walker robot competition"
                 android:textAllCaps="false"
                 android:textColor="@color/blanc"
-                 android:textSize="24sp"
+                android:textSize="24sp"
                 android:visibility="visible"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"/>
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight= "20dp"
+
+                />
 
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/sumocomp"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_radius"
+
                 android:fontFamily="casual"
                 android:text="SUMO robot competition"
-
                 android:textAllCaps="false"
                 android:textColor="@color/blanc"
                 android:textColorLink="#AE1111"
                 android:textSize="24sp"
                 android:visibility="visible"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight= "20dp"
+
+                />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/wheeledcomp"
                 android:layout_width="match_parent"
 
 
                 android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_radius"
+
                 android:fontFamily="casual"
                 android:text="Wheeled Robots Compitition"
-
                 android:textAllCaps="false"
                 android:textColor="@color/blanc"
                 android:textColorLink="#AE1111"
                 android:textSize="24sp"
                 android:visibility="visible"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight= "20dp"
+                />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/project"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_radius"
                 android:fontFamily="casual"
-                android:text="Projet Exposition"
                 android:shadowRadius="100"
+                android:text="Projet Exposition"
                 android:textAllCaps="false"
                 android:textColor="@color/blanc"
                 android:textColorLink="#AE1111"
                 android:textSize="24sp"
                 android:visibility="visible"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"/>
-
-
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight= "20dp"
+                />
 
 
         </LinearLayout>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

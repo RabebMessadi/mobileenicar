@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".enicarrobots"
+    android:background="@drawable/radius_gris">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/backplanning"
+            android:layout_width="59dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/Compition3"
+            android:layout_width="380dp"
+            android:layout_height="142dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/radius_marron"
+            android:enabled="false"
+            android:fontFamily="cursive"
+
+            android:foregroundGravity="center|center_horizontal"
+            android:gravity="clip_horizontal|center|clip_vertical"
+            android:paddingTop="20dp"
+            android:text="Planning"
+            android:textColor="@color/gris"
+            android:textSize="50dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--   <Button
+                android:id="@+id/button2"
+                android:layout_width="373dp"
+                android:layout_height="480dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius_gris"
+                android:fontFamily="cursive"
+                android:text="08:00-08:30:Opning
+                08:30-11:00 : Walker Competition
+                11:00-11:30 : coffe break
+                11:30-14:30 : Sumo Robot Competition
+                14:30-15:30 : break fast
+                15:30-17:30 : Wheeleder Competition
+                17:30-18:30 : Prices"
+    />
+                android:textAllCaps="false"
+                android:textColor="@color/bleu"
+                android:textColorLink="#AE1111"
+                android:textSize="36sp"
+                android:visibility="visible" />-->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:text='08:00-08:30:Opning'
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:layout_marginLeft="10dp"
+                android:text='08:30-11:00 : Walker Competition'
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:layout_marginLeft="10dp"
+
+                android:text='11:00-11:30 : coffe break'
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:text='11:30-14:30 :SumoRobot Competition'
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:fontFamily="cursive"
+                android:text='14:30-15:30 : break fast'
+                android:textSize="28sp" />
+            <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_height="50dp"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text='15:30-17:30 : Wheeleder Competition'
+
+            android:textSize="28sp" />
+            <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text='17:30-18:30 : Prices'
+            android:textSize="28sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
